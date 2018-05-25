@@ -1,8 +1,8 @@
-class CreateMyAppTemplates < ActiveRecord::Migration
+class CreateMyAppTemplates < MyApp::Migration
   def change
     create_table :my_app_templates do |t|
       t.string :name
-      t.string :active
+      t.boolean :active
 
       t.timestamps
     end

@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2018_05_25_174326) do
 
   create_table "my_app_templates", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
-    t.boolean "active", default: true
+    t.boolean "active"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

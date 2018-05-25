@@ -10,10 +10,11 @@ Gem::Specification.new do |s|
   s.authors     = ["Lionel Luchez"]
   s.email       = ["lionel.luchez@snapsheet.me"]
   s.homepage    = ""
-  s.summary     = ": Summary of MyApp."
-  s.description = ": Description of MyApp."
+  s.summary     = "Summary of MyApp."
+  s.description = "Description of MyApp."
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{app,config,lib}/**/*", "Rakefile", "README.md"]
+  # s.files = Dir["{app,config,db,lib}/**/*", "Rakefile", "README.md"]
 
   s.add_dependency "rails"
 
