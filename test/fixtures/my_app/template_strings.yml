@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  template_id: MyString
+  subject: MyString
+  body: MyString
+
+two:
+  template_id: MyString
+  subject: MyString
+  body: MyString
