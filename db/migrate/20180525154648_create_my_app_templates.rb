@@ -1,4 +1,4 @@
-class CreateMyAppTemplates < ActiveRecord::Migration[5.2]
+class CreateMyAppTemplates < ActiveRecord::Migration
   def change
     create_table :my_app_templates do |t|
       t.string :name
