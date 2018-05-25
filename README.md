@@ -26,3 +26,8 @@ rake my_app:install
 # rake my_app:install:migrate # shouldn't be needed anymore
 rake db:migrate
 ```
+
+Update your `routes.rb` file:
+```ruby
+mount MyApp::Engine => '/my_app'
+```
