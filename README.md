@@ -16,7 +16,7 @@ How to use my plugin.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'my_app'
+gem 'my_app', :git => 'git@github.com:lluchez/my_app.git'
 ```
 
 And then execute:
@@ -26,11 +26,3 @@ rake my_app:install
 # rake my_app:install:migrate # shouldn't be needed anymore
 rake db:migrate
 ```
-
-Or install it yourself as:
-```bash
-$ gem install my_app
-```
-
-## Contributing
-Contribution directions go here.
