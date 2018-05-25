@@ -1,6 +1,14 @@
 # MyApp
 Short description and motivation.
 
+## Steps used to create this engine
+
+```bash
+rails plugin new my_app --dummy-path=spec/dummy --skip-test-unit --mountable
+rails g resource Template name active
+rails g rspec:install
+```
+
 ## Usage
 How to use my plugin.
 
@@ -14,6 +22,9 @@ gem 'my_app'
 And then execute:
 ```bash
 $ bundle
+rake my_app:install
+# rake my_app:install:migrate # shouldn't be needed anymore
+rake db:migrate
 ```
 
 Or install it yourself as:
@@ -23,6 +34,3 @@ $ gem install my_app
 
 ## Contributing
 Contribution directions go here.
-
-## License
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
